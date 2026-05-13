@@ -44,7 +44,7 @@ void _printParenthesis(int pos, int n, int open, int close)
     static char str[100];
  
     if (close == n) {
-        printf("%s \n", str);
+        printf("%s\n", str);
         return;
     }
     else {
