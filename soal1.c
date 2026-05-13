@@ -96,8 +96,9 @@ int main(){
     else if(n==0)
         strcpy(str,"");
 
-    int total = (1/(n+1))*Combination(2*n,n);
+    
     PrintSortedPermutations(str);
+    int total = Combination(2*n,n);
     printf("TOTAL %d",total);
     return 0;
 
